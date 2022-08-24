@@ -1,0 +1,165 @@
+:root {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+.navbar {
+  background-color: #f1f3ff;
+  position: fixed;
+  width: 100%;
+}
+body {
+  font-family: Helvetica;
+}
+
+h3.display-4 {
+  font-size: 36px;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.paragraph {
+  width: 150%;
+}
+
+p.testimonial-name {
+  font-weight: bold;
+}
+
+.bg-aliceblue {
+  background-color: #f1f3ff;
+}
+
+.testimonial-rating {
+  max-height: 16px;
+}
+.testimonial-media:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.testimonial-media {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 50%;
+}
+
+.mobil {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: auto;
+  margin-left: 1rem;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 574px) {
+  .hero-desc.container-md {
+    padding-top: 40px;
+  }
+
+  img.mobil {
+    width: 100%;
+  }
+
+  img.service {
+    width: 280px;
+  }
+  
+
+  img.testimonial-rating {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1.why-us {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  p.text-ws {
+    text-align: center;
+  }
+  .slide {
+    max-width: 6%;
+  }
+  p.testimonial-text {
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .accordion {
+    max-width: 100%;
+    width: 100%;
+  }
+  /* .accordion-item {
+    margin-bottom: 5px;
+  } */
+
+  h5.mt-2 {
+    text-align: center;
+    font-size: 14 px;
+  }
+
+  p.content {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .grid-coloum {
+    text-align: left;
+  }
+
+  img.logo-ft {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 16px;
+    top: 4337px;
+  }
+
+  a.text-reset {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  h6.mb-4 {
+    text-align: left;
+  }
+
+  .collapse.navbar-collapse.offcanvas.offcanvas-end.show {
+    width: 50%;
+  }
+  .navbar-nav.ms-auto.mx-3 {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  ul.navbar-nav {
+    width: 90%;
+  }
+
+  
+}
